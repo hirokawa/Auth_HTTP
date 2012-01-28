@@ -18,11 +18,11 @@ realm-based .htaccess authentication.</description>
   <email>hirokawa@php.net</email>
   <active>yes</active>
  </lead>
- <date>2012-01-26</date>
+ <date>2012-01-28</date>
  <time>12:27:06</time>
  <version>
-  <release>2.1.7</release>
-  <api>2.1.7</api>
+  <release>2.1.8</release>
+  <api>2.1.8</api>
  </version>
  <stability>
   <release>stable</release>
@@ -30,11 +30,7 @@ realm-based .htaccess authentication.</description>
  </stability>
  <license uri="http://www.php.net/license">PHP License</license>
  <notes>
-QA release
-Bug #7536 Package PEAR never included
-Doc Bug #7655 Suggested Adjustments to Documentation
-Bug #7784 Auth::start() changes session id
-Bug #16742 Please move tests/ to docs/
+Updated the version of PHP licence from 2.0.2 to 3.0.1.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -222,5 +218,21 @@ Bug #7784 Auth::start() changes session id
 Bug #16742 Please move tests/ to docs/
    </notes>
   </release>
+  <release>
+   <version>
+    <release>2.1.8</release>
+    <api>2.1.8</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-01-29</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+     Updated the version of PHP licence from 2.0.2 to 3.0.1.
+   </notes>
+  </release>
+
  </changelog>
 </package>
